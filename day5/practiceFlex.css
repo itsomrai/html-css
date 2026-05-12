@@ -1,0 +1,27 @@
+ul{
+    background-color: rgb(255, 55, 0);
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    color: rgb(255, 255, 255);
+}
+
+li{
+    list-style-type: none;
+display: inline;
+
+}
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+}

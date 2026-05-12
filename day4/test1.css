@@ -11,4 +11,22 @@ div{
 #box2{
     position: relative;
     top: 20px;
+    left: 10px;
+    z-index: 1;
+}
+body{
+    background-image: url("photo.jpg");
+    background-size: cover; 
+}
+#box3{
+    position: sticky;
+    top: 0px;
+    left: 20px;
+
+}
+#box4{
+    position: fixed;
+    top: 50px;
+    left: 250px;
+    z-index: -2;
 }
