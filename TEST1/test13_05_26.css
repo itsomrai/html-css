@@ -1,0 +1,54 @@
+#block{
+    height: 500px;
+    width: 1450px;
+background-color: rgb(54, 16, 129);
+ background-image: url("man.jpg.png");
+    background-size: cover; 
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+#navbar{
+    height: 60px;
+    background-color: #15c2e0;
+    align-items: center;
+
+}
+
+#logo{
+    color: #ffffff;
+    font-size: 30px;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+}
+#home{
+    background-color: #ffffff;
+    color: rgb(224, 200, 19);
+}
+h1{
+    text-align: center;
+color: rgb(225, 185, 5);
+}
+h3{
+    text-align: center;
+    color: #15c2e0;
+}
+button{
+    color: #ffffff;
+    background-color: #15c2e0;
+}
+button{
+    background-color: #15c2e0;
+
+}
+.contentbox{
+    height: 300px;
+    width: 300px;
+    border: 2px solid rgb(255, 255, 255);
+    display: inline-block;
+}
