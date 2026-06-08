@@ -1,0 +1,131 @@
+
+.navbar{
+    background-color: #8faebb;
+    padding: 15px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+.navbar hr{
+    border: 0;
+    border-top: 1px solid white;
+    width: 80%;
+    margin: 10px auto;
+    opacity: 0.5;
+}
+.menu a{
+    font-weight: bold;
+    font-size: 15px;
+}
+.main-header{
+    background-color: grey;
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        border-top: 4px solid #7ba7a9;
+}
+.logo-container{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+}
+.light-text{
+    font-weight: normal;
+    color: #d1d5db;
+}
+.menu-btn{
+background: none;
+border: none;
+cursor: pointer;
+}
+.menu-btn span{
+        display: block;
+    width: 24px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+}
+.navlinks{
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+    padding: 10px 40px;
+    margin-left: 10px;
+    background-color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+button{
+    border-radius: 15px;
+}
+.web{
+padding-inline: 10px;
+font-size: 20px;
+font-weight: bold;
+}
+.webdesign{
+background-image: url("photo.jpg");
+background-size: cover;
+}
+pre{
+     display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: aliceblue;
+}
+.content{
+    height: 75vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
+    url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    padding-left: 8%;
+    color: white;
+}
+.content1{
+    max-width: 600px;
+}
+.content1 h1{
+    font-size:2.8rem;
+    font-weight: 700px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+
+}
+.content p{
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+.btn {
+    display: inline-block;
+    background-color: #3b82f6; /* Beautiful soft blue button */
+    color: white;
+    padding: 14px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2563eb;
+}
+
+.subtext {
+    display: block;
+    margin-top: 12px;
+    font-size: 0.85rem;
+    opacity: 0.8;
+    padding-left: 15px;
+}
